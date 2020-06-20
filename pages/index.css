@@ -12,7 +12,7 @@
 @import url(../blocks/links/links.css);
 
 @font-face {
-  src: url('../fonts/Inter/Inter.var.woff2');
+  src: url('../fonts/Inter/Inter-Regular.woff2');
   font-family: 'Inter';
 }
 
@@ -20,4 +20,11 @@
   src: url('../fonts/Inter/Inter-Bold.woff2');
   font-family: 'Inter';
   font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 900;
+  src: url("../fonts/Inter/Inter-Black.woff2");
 }
