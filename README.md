@@ -21,5 +21,5 @@
 * адаптивная разработка;
 * система контроля версий GIT. 
  
-Сайт размещен [здесь](https://konstantin-khoroshilov.github.io/russian-travel/)
+Сайт размещен [здесь](https://konstantin-khoroshilov.github.io/russian-travel/) 
 Страница валидна.
