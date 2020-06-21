@@ -7,4 +7,25 @@
   line-height: 1.22;
   text-align: center;
   color: #FFFFFF;
+  width: 30.4055%;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__subtitle {
+    width: 35.15625%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    width: 46.875%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    width: 90%;
+    font-size: 14px;
+    line-height: 1.14;
+  }
 }

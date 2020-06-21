@@ -4,5 +4,18 @@
 @import url(./__caption/lead__caption.css);
 
 .lead {
-  
+  margin-bottom: 92px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    margin-bottom: 64px;
+  }
 }

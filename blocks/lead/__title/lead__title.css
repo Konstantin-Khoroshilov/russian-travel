@@ -1,9 +1,42 @@
 .lead__title {
-  margin: 0;
+  margin:0 auto;
   padding: 0;
   font-weight: 900;
   font-size: 96px;
   line-height: 1.042;
   text-align: center;
   color: #FFF;
+  width: 56.25%;
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 1200px) {
+  .lead__title {
+    width: 70.3125%;
+    line-height: 1.04;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .lead__title {
+    width: 93.75%;
+    line-height: 1.04;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 1.10;
+    width: 90%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    width: 90%;
+    font-size: 40px;
+    line-height: 1.10;
+    margin-bottom: 16px;
+  }
 }

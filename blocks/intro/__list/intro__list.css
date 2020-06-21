@@ -7,4 +7,23 @@
   font-size: 12px;
   line-height: 1.5;
   color: #FFFFFF;
+  width: 70.122%;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__list {
+    width: 74.355%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__list {
+    width: 95.835%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__list {
+    width: 100%;
+  }
 }

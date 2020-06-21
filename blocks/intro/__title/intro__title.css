@@ -6,4 +6,27 @@
   font-size: 54px;
   line-height: 1.07;
   color: #FFFFFF;
+  margin-bottom: 3.125%;
+  width: 70.122%;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__title {
+    width: 74.3535%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    width: 100%;
+    font-size: 32px;
+    line-height: 1.09;
+  }
 }
