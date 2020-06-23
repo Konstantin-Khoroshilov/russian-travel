@@ -9,9 +9,9 @@
 .place {
   display: grid;
   grid-template-columns: 46.748% 49.187%;
+  grid-template-rows: min-content min-content;
   grid-column-gap: 4.064%;
   grid-row-gap: 48px;
-  align-items: start;
 }
 
 .place:not(:last-of-type) {
@@ -22,6 +22,9 @@
   .place {
     grid-template-columns: 47.4137931% 49.13793103%;
     grid-column-gap: 3.448275862%;
+  }
+  .place:not(:last-of-type) {
+    margin-bottom: 84px;
   }
 }
 
@@ -39,6 +42,8 @@
   .place {
     grid-row-gap: 32px;
     grid-template-columns:1fr;
+    grid-template-rows: repeat(3, min-content);
+    
   }
   
   .place:not(:last-of-type) {

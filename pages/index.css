@@ -1,4 +1,5 @@
 @import url(../vendor/normalize.css);
+@import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/content/content.css);
@@ -9,21 +10,4 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
-
-@font-face {
-  src: url('../fonts/Inter/Inter-Regular.woff2');
-  font-family: 'Inter';
-}
-
-@font-face {
-  src: url('../fonts/Inter/Inter-Bold.woff2');
-  font-family: 'Inter';
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 900;
-  src: url("../fonts/Inter/Inter-Black.woff2");
-}
+@import url(../fonts/fonts.css);
